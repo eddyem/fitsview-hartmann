@@ -1,0 +1,590 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2011-07-15 11:01+0400\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=koi8-r\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: opengl.c:53
+#, fuzzy
+msgid   "\n"
+        "OpenGL info:\n"
+msgstr  "Информация об OpenGL:\n"
+
+#: fitsview.glade:128
+msgid   "3D view of full image"
+msgstr  "Просмотр всего изображения в 3D"
+
+#: fitsview.glade:136
+msgid   "3D view of subframe"
+msgstr  "Просмотр части изображения в 3D"
+
+#: fitsview.glade:1240
+msgid   "<b>Focus value, mm</b>"
+msgstr  "<b>Фокус, мм</b>"
+
+#: fitsview.glade:1140
+msgid   "<b>Height</b>"
+msgstr  "<b>Высота</b>"
+
+#: fitsview.glade:1300
+msgid   "<b>Image type</b>"
+msgstr  "<b>Тип изображения</b>"
+
+#: fitsview.glade:1042
+msgid   "<b>Width</b>"
+msgstr  "<b>Ширина</b>"
+
+#: opengl.c:76
+msgid   "All extensions"
+msgstr  "Все расширения"
+
+#: open_dialog.c:164
+msgid   "All files"
+msgstr  "Все файлы"
+
+#: fitsview.glade:525
+msgid   "Approximate by _gaussian"
+msgstr  "Аппроксимация _гауссианой"
+
+#. мало либо много точек
+#: tracking.c:523
+msgid   "Bad amount of data points"
+msgstr  "Неверное количество точек с данными"
+
+#: spots.c:68
+msgid   "Bad markers angle"
+msgstr  "Неверный угол между маркерами"
+
+#: gtk.c:461
+msgid   "Both max values are less than min"
+msgstr  "Обе максимальные величины меньше минимальной"
+
+#: imtools.c:217 imtools.c:292
+msgid   "Box not found"
+msgstr  "Область не обнаружена"
+
+#: tracking.c:535 terrain.c:207 terrain.c:213
+msgid   "Can't allocate memory"
+msgstr  "Не могу выделить память"
+
+#: imtools.c:445
+msgid   "Can't allocate memory for Hough transform"
+msgstr  "Не могу выделить память для образа Хафа"
+
+#: imtools.c:356
+msgid   "Can't allocate memory for histogram"
+msgstr  "Не могу выделить память для гистограммы"
+
+#: spots.c:138
+msgid   "Can't allocate memory for new spot"
+msgstr  "Не могу выделить память для новой точки"
+
+#: spots.c:89
+msgid   "Can't allocate memory for new spots"
+msgstr  "Не могу выделить память для новых точек"
+
+#: spots.c:94
+msgid   "Can't allocate memory for pointers in spots array"
+msgstr  "Не могу выделить память для указателей в массиве точек"
+
+#: opengl.c:425 terrain.c:258
+msgid   "Can't allocate memory for texture"
+msgstr  "Не могу выделить память для текстуры"
+
+#: tracking.c:57 tracking.c:62 tracking.c:351
+msgid   "Can't allocate memory for track points"
+msgstr  "Не могу выделить память для точек трека"
+
+#: spots.c:143
+msgid   "Can't copy spot to new one"
+msgstr  "Не могу скопировать точку"
+
+#: terrain.c:269
+msgid   "Can't generate VBO / GL list"
+msgstr  "Не могу сгенерировать VBO / GL списки"
+
+#: spots.c:507
+#, fuzzy
+msgid   "Can't open file"
+msgstr  "Не могу сохранить файл"
+
+#: fits.c:287
+msgid   "Can't read HDU"
+msgstr  "Не могу прочесть HDU"
+
+#: fits.c:192
+msgid   "Can't read fits file"
+msgstr  "Не могу прочесть fits файл"
+
+#: gtk.c:183
+msgid   "Can't save file"
+msgstr  "Не могу сохранить файл"
+
+#: spots.c:519
+#, fuzzy
+msgid   "Can't write to file"
+msgstr  "Не могу прочесть fits файл"
+
+#: fitsview.glade:218
+msgid   "Choose minimal & maximal spot size"
+msgstr  "Выберите предельные размеры пятен"
+
+#: gtk.c:1084
+msgid   "Close"
+msgstr  "Закрыть"
+
+#: fitsheaders.c:524
+msgid   "Close (ctrl+w)"
+msgstr  "Закрыть (ctrl+w)"
+
+#: opengl.c:58
+msgid   "Color bits"
+msgstr  "Биты цвета"
+
+#: open_dialog.c:105
+msgid   "Colormap function"
+msgstr  "Цветовая функция"
+
+#: fitsheaders.c:54
+msgid   "Comment"
+msgstr  "Комментарий"
+
+#. (window->context->transformMask & TRANS_TRES) &&
+#: imtools.c:200 imtools.c:276
+msgid   "Define treshold limits first"
+msgstr  "Определите пороги на гистограмме"
+
+#: fitsheaders.c:518
+msgid   "Delete entry (ctrl+d)"
+msgstr  "Удалить запись (ctrl+d)"
+
+#: opengl.c:63
+msgid   "Depth bits"
+msgstr  "Биты глубины"
+
+#: fitsview.glade:152
+msgid   "Draw _tracks"
+msgstr  "Построение т_реков"
+
+#: opengl.c:232
+msgid   "Empty region"
+msgstr  "Пустая область"
+
+#: imtools.c:462
+msgid   "Error in Hough transform module"
+msgstr  "Ошибка в модуле преобразования Хафа"
+
+#: fitsheaders.c:102
+msgid   "Error in value range!"
+msgstr  "Ошибка в диапазоне значений!"
+
+#: gtk.c:58
+#, c-format
+msgid   "Error: %s\n"
+msgstr  "Ошибка: %s\n"
+
+#: open_dialog.c:155
+msgid   "FITS files"
+msgstr  "FITS файлы"
+
+#: fitsview.glade:209
+msgid   "Find and enumerate spots"
+msgstr  "Распознавание пятен"
+
+#: tracking.c:551
+#, c-format
+msgid   "Fit gaussian, x0=%.2f I(%.2f, %.2f), s=%.2f, A=%.1f, C=%.3f"
+msgstr  "Аппроксимация гауссианой, x0=%.2f I(%.2f, %.2f), s=%.2f, A=%.1f, C="
+        "%.3f"
+
+#: fitsheaders.c:133
+msgid   "Format error: complex number must be in format"
+msgstr  "Ошибка формата: комплексное число должно иметь формат"
+
+#: fitsview.glade:255
+msgid   "Identify _circles"
+msgstr  "Идентификация _окружностей"
+
+#: fitsview.glade:227
+msgid   "Identify _spots"
+msgstr  "Идентификация _пятен"
+
+#: imtools.c:348 imtools.c:398 imtools.c:434
+msgid   "Image is empty"
+msgstr  "Изображение не загружено"
+
+#: open_dialog.c:326
+msgid   "Image size"
+msgstr  "Размер изображения"
+
+#: fitsheaders.c:121
+msgid   "Invalid double number!"
+msgstr  "Неверное число двойной точности!"
+
+#. номер первой точки
+#. не туда попали?
+#: tracking.c:528
+msgid   "Invalid number of first point"
+msgstr  "Неверный номер первой точки"
+
+#: fitsview.glade:489
+msgid   "Linear"
+msgstr  "Линейный"
+
+#: fitsview.glade:499
+msgid   "Log"
+msgstr  "Логарифмический"
+
+#: fitsview.glade:1010 fitsview.glade:1108
+msgid   "Max"
+msgstr  "Максимум"
+
+#: opengl.c:64
+msgid   "Max amount of lights"
+msgstr  "Максимальное количество источников освещения"
+
+#: opengl.c:68
+msgid   "Max clip planes"
+msgstr  "Максимальное количество плоскостей отсечения"
+
+#: gtk.c:464
+msgid   "Max height value less than min"
+msgstr  "Максимальная высота пятна меньше минимальной"
+
+#: opengl.c:73
+msgid   "Max stack depths"
+msgstr  "Максимальная глубина стека"
+
+#: opengl.c:67
+msgid   "Max texture size"
+msgstr  "Максимальный размер текстуры"
+
+#: gtk.c:466
+msgid   "Max width value less than min"
+msgstr  "Максимальная ширина меньше минимальной"
+
+#: fitsview.glade:978 fitsview.glade:1076
+msgid   "Min"
+msgstr  "Минимум"
+
+#: fitsview.glade:817
+msgid   "Mouse and arrow keys navigation"
+msgstr  "Навигация мышью и клавиатурой"
+
+#: fitsview.glade:792
+msgid   "Move backward"
+msgstr  "Назад"
+
+#: fitsview.glade:776
+msgid   "Move down"
+msgstr  "Вниз"
+
+#: fitsview.glade:800
+msgid   "Move forward"
+msgstr  "Вперед"
+
+#: fitsview.glade:768
+msgid   "Move left"
+msgstr  "Влево"
+
+#: fitsview.glade:760
+msgid   "Move right"
+msgstr  "Вправо"
+
+#: fitsview.glade:784
+msgid   "Move up"
+msgstr  "Вверх"
+
+#: fitsheaders.c:54
+msgid   "Name"
+msgstr  "Название"
+
+#: fitsheaders.c:513
+msgid   "New entry (ctrl+n)"
+msgstr  "Новая запись (ctrl+n)"
+
+#: imtools.c:213
+msgid   "No GSL library found, don't calculate centroids"
+msgstr  "Не обнаружена библиотека GSL, не вычисляю центроиды"
+
+#. точек нет? (О_о, а такое вообще может быть?)
+#: tracking.c:518
+msgid   "No data points"
+msgstr  "Отсутствуют точки с данными"
+
+#: terrain.c:199
+msgid   "No image in parent window"
+msgstr  "В родительское окно не загружено изображение"
+
+#: tracking.c:510
+msgid   "No parent window or image"
+msgstr  "Отсутствует родительское окно или изображение в нем"
+
+#. "Отсутствуют распознанные пятна"
+#: gtk.c:514
+msgid   "No recognized spots"
+msgstr  "Отсутствуют распознанные пятна"
+
+#: fits.c:356
+msgid   "Not an image? (dimensions != 2)"
+msgstr  "FITS-файл не является изображением? (размерность не равна двум)"
+
+#: spots.c:67
+msgid   "Not enough markers"
+msgstr  "Недостаточное количество маркеров"
+
+#: imtools.c:257
+msgid   "Not enough points"
+msgstr  "Недостаточно точек"
+
+#: fitsheaders.c:486
+msgid   "Open fits file first"
+msgstr  "Вначале откройте fits-файл"
+
+#: fitsview.glade:55
+msgid   "Open in _3D window"
+msgstr  "Открыть в окне _3D"
+
+#: fitsview.glade:40
+msgid   "Open in _new window"
+msgstr  "Открыть в _новом окне"
+
+#: opengl.c:32
+msgid   "OpenGL not supported"
+msgstr  "OpenGL не поддерживается вашей системой"
+
+#: imtools.c:296
+msgid   "Pix not found"
+msgstr  "Маска не обнаружена"
+
+#: fitsview.glade:1282
+msgid   "Postfocal"
+msgstr  "Зафокальное"
+
+#: fitsview.glade:1269
+msgid   "Prefocal"
+msgstr  "Предфокальное"
+
+#: open_dialog.c:328
+msgid   "Preview scale"
+msgstr  "Масштаб предпросмотра"
+
+#: open_dialog.c:188
+msgid   "Preview settings"
+msgstr  "Настройки предпросмотра"
+
+#: open_dialog.c:96 open_dialog.c:327
+msgid   "Preview size"
+msgstr  "Размер предпросмотра"
+
+#: gtk.c:1081
+msgid   "Quit"
+msgstr  "_Выход"
+
+#: fitsview.glade:736
+msgid   "Rotate X CCW"
+msgstr  "Вращать против ЧС вокруг оси X"
+
+#: fitsview.glade:728
+msgid   "Rotate X CW"
+msgstr  "Врощать по ЧС вокруг оси X"
+
+#: fitsview.glade:744
+msgid   "Rotate Z CCW"
+msgstr  "Вращать против ЧС вокруг оси Z"
+
+#: fitsview.glade:752
+msgid   "Rotate Z CW"
+msgstr  "Врощать по ЧС вокруг оси Z"
+
+#: fitsview.glade:243
+msgid   "Sa_ve spots"
+msgstr  "Со_хранить точки"
+
+#: fitsview.glade:144
+msgid   "Select _spots"
+msgstr  "Выбор _точек"
+
+#: open_dialog.c:142
+msgid   "Select fits file to open"
+msgstr  "Выберите, какой fits-файл открыть"
+
+#: terrain.c:177
+msgid   "Selected area too small"
+msgstr  "Выделенная область слишком мала"
+
+#: gtk.c:358
+msgid   "Selected line"
+msgstr  "Выбрана линия"
+
+#: tracking.c:475
+#, c-format
+msgid   "Selected region from %.1f to %.1f, %d datapoints"
+msgstr  "Выделена область от %.1f до %.1f, %d точек"
+
+#: opengl.c:241
+msgid   "Selected spot: "
+msgstr  "Выбрано пятно: "
+
+#: opengl.c:239
+msgid   "Selected spot[s]:\n"
+msgstr  "Выбраны пятна:\n"
+
+#: opengl.c:243
+msgid   "Selected spots: "
+msgstr  "Выбраны пятна: "
+
+#: fitsview.glade:115
+msgid   "Show _headers"
+msgstr  "Отобразить _заголовки"
+
+#: fitsview.glade:107
+msgid   "Show _histogram"
+msgstr  "Отобразить _гистограмму"
+
+#: fitsview.glade:219
+msgid   "Size _tresholds"
+msgstr  "Ограничение размеров"
+
+#: fitsview.glade:235
+msgid   "So_rt hartmann spots"
+msgstr  "Сортировать пятна гартманограммы"
+
+#: spots.c:128
+msgid   "Spots array is full, can't place new spot\n"
+msgstr  "Массив точек полон, не могу добавить новую точку\n"
+
+#: fitsview.glade:934
+msgid   "Spots' size treshold"
+msgstr  "Ограничение размеров пятен"
+
+#: opengl.c:64
+msgid   "Stencil bits"
+msgstr  "Биты трафарета"
+
+#: spots.c:66
+msgid   "Too many markers"
+msgstr  "Слишком много маркеров"
+
+#: imtools.c:253
+msgid   "Too many points"
+msgstr  "Слишком много точек"
+
+#: spots.c:69
+msgid   "Too many rings"
+msgstr  "Слишком много колец"
+
+#. количество записей
+#: fitsheaders.c:54
+msgid   "Type"
+msgstr  "Тип"
+
+#: opengl.c:78
+msgid   "VBO is supported\n"
+msgstr  "Поддерживаются буферы объектов\n"
+
+#: fitsheaders.c:54
+msgid   "Value"
+msgstr  "Значение"
+
+#: fitsview.glade:481
+msgid   "Y axis scale"
+msgstr  "Масштаб оси Y"
+
+#: spots.c:132
+msgid   "Zero pointer to spot\n"
+msgstr  "Нулевой указатель на точку\n"
+
+#: fitsview.glade:181
+msgid   "Zoom _in"
+msgstr  "У_величить"
+
+#: fitsview.glade:189
+msgid   "Zoom _out"
+msgstr  "У_меньшить"
+
+#: fitsview.glade:92 fitsview.glade:466 fitsview.glade:705
+msgid   "_Edit"
+msgstr  "_Изменить"
+
+#: fitsview.glade:16 fitsview.glade:440 fitsview.glade:671
+msgid   "_File"
+msgstr  "_Файл"
+
+#: fitsview.glade:818
+msgid   "_Game mode"
+msgstr  ""
+
+#: fitsview.glade:275
+msgid   "_Help"
+msgstr  "_Помощь"
+
+#: fitsview.glade:263
+msgid   "_Hough transform"
+msgstr  "Преобразование _Хафа"
+
+#: fitsview.glade:201 fitsview.glade:517 fitsview.glade:838
+msgid   "_Math"
+msgstr  "_Математика"
+
+#: fitsview.glade:720
+msgid   "_Move"
+msgstr  "_Переместить"
+
+#: fitsview.glade:173 fitsview.glade:826
+msgid   "_Restore image"
+msgstr  "_Восстановить масштаб"
+
+#: fitsview.glade:210
+msgid   "_Spots"
+msgstr  "_Пятна"
+
+#: fitsview.glade:99 fitsview.glade:473 fitsview.glade:712
+msgid   "_View"
+msgstr  "_Вид"
+
+#: fitsview.glade:165
+msgid   "_Zoom frame"
+msgstr  "_Увеличение рамкой"
+
+#: opengl.c:74
+msgid   "attrib"
+msgstr  "атрибутовый"
+
+#: open_dialog.c:79
+msgid   "linear"
+msgstr  "линейная"
+
+#: open_dialog.c:79
+msgid   "log"
+msgstr  "логарифмическая"
+
+#: opengl.c:74
+msgid   "modelview"
+msgstr  "модельно-видовый"
+
+#: opengl.c:74
+msgid   "projection"
+msgstr  "проекций"
+
+#: open_dialog.c:79
+msgid   "square root"
+msgstr  "квадратный корень"
+
+#: opengl.c:75
+msgid   "texture"
+msgstr  "текстур"
+
+#~ msgid        "You sure, you want exit?"
+#~ msgstr       "Вы уверены, что хотите выйти?"

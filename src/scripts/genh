@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "const gchar *ui = `sed -r 's/^[[:space:]]*//;s/\"/\\\\\"/g;s/(^.*$$)/\"&\"/' $1` ;" > ui.h
+echo "Wrote ui.h"

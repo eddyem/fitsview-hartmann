@@ -1,0 +1,596 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-10 17:22+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gtk.c:58
+#, c-format
+msgid "Error: %s\n"
+msgstr ""
+
+#: gtk.c:174 fits.c:191
+msgid "Can't read fits file"
+msgstr ""
+
+#: gtk.c:185
+msgid "Can't save file"
+msgstr ""
+
+#: gtk.c:367
+msgid "Selected line"
+msgstr ""
+
+#: gtk.c:473
+msgid "Both max values are less than min"
+msgstr ""
+
+#: gtk.c:476
+msgid "Max height value less than min"
+msgstr ""
+
+#: gtk.c:478
+msgid "Max width value less than min"
+msgstr ""
+
+#: gtk.c:525
+msgid "No recognized spots"
+msgstr ""
+
+#: gtk.c:1090
+msgid "Quit"
+msgstr ""
+
+#: gtk.c:1093
+msgid "Close"
+msgstr ""
+
+#: fitsheaders.c:53
+msgid "Type"
+msgstr ""
+
+#: fitsheaders.c:53
+msgid "Name"
+msgstr ""
+
+#: fitsheaders.c:53
+msgid "Value"
+msgstr ""
+
+#: fitsheaders.c:53
+msgid "Comment"
+msgstr ""
+
+#: fitsheaders.c:101
+msgid "Error in value range!"
+msgstr ""
+
+#: fitsheaders.c:120
+msgid "Invalid double number!"
+msgstr ""
+
+#: fitsheaders.c:132
+msgid "Format error: complex number must be in format"
+msgstr ""
+
+#: fitsheaders.c:486
+msgid "Open fits file first"
+msgstr ""
+
+#: fitsheaders.c:513
+msgid "New entry (ctrl+n)"
+msgstr ""
+
+#: fitsheaders.c:518
+msgid "Delete entry (ctrl+d)"
+msgstr ""
+
+#: fitsheaders.c:524
+msgid "Close (ctrl+w)"
+msgstr ""
+
+#: tracking.c:57 tracking.c:62 tracking.c:350
+msgid "Can't allocate memory for track points"
+msgstr ""
+
+#: tracking.c:483
+#, c-format
+msgid "Selected region from %.1f to %.1f, %d datapoints"
+msgstr ""
+
+#: tracking.c:518
+msgid "No parent window or image"
+msgstr ""
+
+#: tracking.c:526
+msgid "No data points"
+msgstr ""
+
+#: tracking.c:531
+msgid "Bad amount of data points"
+msgstr ""
+
+#: tracking.c:536
+msgid "Invalid number of first point"
+msgstr ""
+
+#: tracking.c:543 contours.c:394 contours.c:400 contours.c:449 contours.c:453
+#: contours.c:456 terrain.c:264 terrain.c:270
+msgid "Can't allocate memory"
+msgstr ""
+
+#: tracking.c:559
+#, c-format
+msgid "Fit gaussian, x0=%.2f I(%.2f, %.2f), s=%.2f, A=%.1f, C=%.3f"
+msgstr ""
+
+#: spots.c:63
+msgid "Too many markers"
+msgstr ""
+
+#: spots.c:64
+msgid "Not enough markers"
+msgstr ""
+
+#: spots.c:65
+msgid "Bad markers angle"
+msgstr ""
+
+#: spots.c:66
+msgid "Too many rings"
+msgstr ""
+
+#: spots.c:83
+msgid "Can't allocate memory for new spots"
+msgstr ""
+
+#: spots.c:88
+msgid "Can't allocate memory for pointers in spots array"
+msgstr ""
+
+#: spots.c:122
+msgid "Spots array is full, can't place new spot\n"
+msgstr ""
+
+#: spots.c:126
+msgid "Zero pointer to spot\n"
+msgstr ""
+
+#: spots.c:132
+msgid "Can't allocate memory for new spot"
+msgstr ""
+
+#: spots.c:137
+msgid "Can't copy spot to new one"
+msgstr ""
+
+#: spots.c:499
+msgid "Can't open file"
+msgstr ""
+
+#: spots.c:511
+msgid "Can't write to file"
+msgstr ""
+
+#: imtools.c:222 imtools.c:302
+msgid "Define treshold limits first"
+msgstr ""
+
+#: imtools.c:235
+msgid "No GSL library found, don't calculate centroids"
+msgstr ""
+
+#: imtools.c:239 imtools.c:318
+msgid "Box not found"
+msgstr ""
+
+#: imtools.c:274
+msgid "Find spots first"
+msgstr ""
+
+#: imtools.c:279
+msgid "Too many points"
+msgstr ""
+
+#: imtools.c:283
+msgid "Not enough points"
+msgstr ""
+
+#: imtools.c:322
+msgid "Pix not found"
+msgstr ""
+
+#: imtools.c:377 imtools.c:439 imtools.c:481
+msgid "Image is empty"
+msgstr ""
+
+#: imtools.c:384
+msgid "Can't allocate memory for histogram"
+msgstr ""
+
+#: imtools.c:492
+msgid "Can't allocate memory for Hough transform"
+msgstr ""
+
+#: imtools.c:508
+msgid "Error in Hough transform module"
+msgstr ""
+
+#: imtools.c:628
+msgid "Error in image filter module"
+msgstr ""
+
+#: NOCUDA.c:809
+msgid "No memory left"
+msgstr ""
+
+#: fits.c:284
+msgid "Can't read HDU"
+msgstr ""
+
+#: fits.c:345
+msgid "Not an image? (dimensions != 2)"
+msgstr ""
+
+#: opengl.c:34
+msgid "OpenGL not supported"
+msgstr ""
+
+#: opengl.c:55
+msgid ""
+"\n"
+"OpenGL info:\n"
+msgstr ""
+
+#: opengl.c:60
+msgid "Color bits"
+msgstr ""
+
+#: opengl.c:65
+msgid "Depth bits"
+msgstr ""
+
+#: opengl.c:66
+msgid "Stencil bits"
+msgstr ""
+
+#: opengl.c:66
+msgid "Max amount of lights"
+msgstr ""
+
+#: opengl.c:69
+msgid "Max texture size"
+msgstr ""
+
+#: opengl.c:70
+msgid "Max clip planes"
+msgstr ""
+
+#: opengl.c:75
+msgid "Max stack depths"
+msgstr ""
+
+#: opengl.c:76
+msgid "modelview"
+msgstr ""
+
+#: opengl.c:76
+msgid "projection"
+msgstr ""
+
+#: opengl.c:76
+msgid "attrib"
+msgstr ""
+
+#: opengl.c:77
+msgid "texture"
+msgstr ""
+
+#: opengl.c:80
+msgid "VBO is supported\n"
+msgstr ""
+
+#: opengl.c:288
+msgid "Empty region"
+msgstr ""
+
+#: opengl.c:295
+msgid "Selected spot[s]:\n"
+msgstr ""
+
+#: opengl.c:297
+msgid "Selected spot: "
+msgstr ""
+
+#: opengl.c:299
+msgid "Selected spots: "
+msgstr ""
+
+#: opengl.c:483 terrain.c:321
+msgid "Can't allocate memory for texture"
+msgstr ""
+
+#: terrain.c:227
+msgid "Selected area too small"
+msgstr ""
+
+#: terrain.c:233
+msgid "Error occured when tried to add contours"
+msgstr ""
+
+#: terrain.c:256
+msgid "No image in parent window"
+msgstr ""
+
+#: terrain.c:332
+msgid "Can't generate VBO / GL list"
+msgstr ""
+
+#: open_dialog.c:79
+msgid "linear"
+msgstr ""
+
+#: open_dialog.c:79
+msgid "log"
+msgstr ""
+
+#: open_dialog.c:79
+msgid "square root"
+msgstr ""
+
+#: open_dialog.c:96 open_dialog.c:354
+msgid "Preview size"
+msgstr ""
+
+#: open_dialog.c:105
+msgid "Colormap function"
+msgstr ""
+
+#: open_dialog.c:142
+msgid "Select fits file to open"
+msgstr ""
+
+#: open_dialog.c:155
+msgid "FITS files"
+msgstr ""
+
+#: open_dialog.c:164
+msgid "All files"
+msgstr ""
+
+#: open_dialog.c:188
+msgid "Preview settings"
+msgstr ""
+
+#: open_dialog.c:353
+msgid "Image size"
+msgstr ""
+
+#: open_dialog.c:355
+msgid "Preview scale"
+msgstr ""
+
+#: fitsview.glade:16 fitsview.glade:448 fitsview.glade:679
+msgid "_File"
+msgstr ""
+
+#: fitsview.glade:40
+msgid "Open in _new window"
+msgstr ""
+
+#: fitsview.glade:55
+msgid "Open in _3D window"
+msgstr ""
+
+#: fitsview.glade:92 fitsview.glade:474 fitsview.glade:713
+msgid "_Edit"
+msgstr ""
+
+#: fitsview.glade:99 fitsview.glade:481 fitsview.glade:720
+msgid "_View"
+msgstr ""
+
+#: fitsview.glade:107
+msgid "Show _histogram"
+msgstr ""
+
+#: fitsview.glade:115
+msgid "Show _headers"
+msgstr ""
+
+#: fitsview.glade:128
+msgid "3D view of full image"
+msgstr ""
+
+#: fitsview.glade:136
+msgid "3D view of subframe"
+msgstr ""
+
+#: fitsview.glade:144
+msgid "Select _spots"
+msgstr ""
+
+#: fitsview.glade:152
+msgid "Draw _tracks"
+msgstr ""
+
+#: fitsview.glade:165
+msgid "_Zoom frame"
+msgstr ""
+
+#: fitsview.glade:173 fitsview.glade:834
+msgid "_Restore image"
+msgstr ""
+
+#: fitsview.glade:181
+msgid "Zoom _in"
+msgstr ""
+
+#: fitsview.glade:189
+msgid "Zoom _out"
+msgstr ""
+
+#: fitsview.glade:201 fitsview.glade:525 fitsview.glade:846
+msgid "_Math"
+msgstr ""
+
+#: fitsview.glade:209
+msgid "Find and enumerate spots"
+msgstr ""
+
+#: fitsview.glade:210
+msgid "_Spots"
+msgstr ""
+
+#: fitsview.glade:218
+msgid "Choose minimal & maximal spot size"
+msgstr ""
+
+#: fitsview.glade:219
+msgid "Size _tresholds"
+msgstr ""
+
+#: fitsview.glade:227
+msgid "Identify _spots"
+msgstr ""
+
+#: fitsview.glade:235
+msgid "So_rt hartmann spots"
+msgstr ""
+
+#: fitsview.glade:243
+msgid "Sa_ve spots"
+msgstr ""
+
+#: fitsview.glade:255
+msgid "Identify _circles"
+msgstr ""
+
+#: fitsview.glade:263
+msgid "_Hough transform"
+msgstr ""
+
+#: fitsview.glade:271
+msgid "_Filter"
+msgstr ""
+
+#: fitsview.glade:283
+msgid "_Help"
+msgstr ""
+
+#: fitsview.glade:489
+msgid "Y axis scale"
+msgstr ""
+
+#: fitsview.glade:497
+msgid "Linear"
+msgstr ""
+
+#: fitsview.glade:507
+msgid "Log"
+msgstr ""
+
+#: fitsview.glade:533
+msgid "Approximate by _gaussian"
+msgstr ""
+
+#: fitsview.glade:728
+msgid "_Move"
+msgstr ""
+
+#: fitsview.glade:736
+msgid "Rotate X CW"
+msgstr ""
+
+#: fitsview.glade:744
+msgid "Rotate X CCW"
+msgstr ""
+
+#: fitsview.glade:752
+msgid "Rotate Z CCW"
+msgstr ""
+
+#: fitsview.glade:760
+msgid "Rotate Z CW"
+msgstr ""
+
+#: fitsview.glade:768
+msgid "Move right"
+msgstr ""
+
+#: fitsview.glade:776
+msgid "Move left"
+msgstr ""
+
+#: fitsview.glade:784
+msgid "Move down"
+msgstr ""
+
+#: fitsview.glade:792
+msgid "Move up"
+msgstr ""
+
+#: fitsview.glade:800
+msgid "Move backward"
+msgstr ""
+
+#: fitsview.glade:808
+msgid "Move forward"
+msgstr ""
+
+#: fitsview.glade:825
+msgid "Mouse and arrow keys navigation"
+msgstr ""
+
+#: fitsview.glade:826
+msgid "_Game mode"
+msgstr ""
+
+#: fitsview.glade:942
+msgid "Spots' size treshold"
+msgstr ""
+
+#: fitsview.glade:986 fitsview.glade:1084
+msgid "Min"
+msgstr ""
+
+#: fitsview.glade:1018 fitsview.glade:1116
+msgid "Max"
+msgstr ""
+
+#: fitsview.glade:1050
+msgid "<b>Width</b>"
+msgstr ""
+
+#: fitsview.glade:1148
+msgid "<b>Height</b>"
+msgstr ""
+
+#: fitsview.glade:1248
+msgid "<b>Focus value, mm</b>"
+msgstr ""
+
+#: fitsview.glade:1277
+msgid "Prefocal"
+msgstr ""
+
+#: fitsview.glade:1290
+msgid "Postfocal"
+msgstr ""
+
+#: fitsview.glade:1308
+msgid "<b>Image type</b>"
+msgstr ""
