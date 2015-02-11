@@ -45,7 +45,6 @@ enum{
 EXTERN int fill_hough_lines(float *ima, float min, float max, int imW, int imH, int Rmax, int angles, float *hough);
 EXTERN int DiffFilter(float *ima, float **result, Filter *f, int sizex, int sizey);
 EXTERN int MedFilter(float *ima, float **result, Filter *f, int sizex, int sizey);
-EXTERN int fillIsoScale(Filter *f, float **scale, float min, float wd);
 EXTERN int StepFilter(float *ima, float **result, Filter *f, int sizex, int sizey, float min, float max, float **scale);
 EXTERN int GradFilterSimple(float *ima, float **result, Filter *f, int sizex, int sizey);
 #endif // _CUTOOLS_H_

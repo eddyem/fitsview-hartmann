@@ -691,3 +691,4 @@ free_all:
 }
 extern "C"  int MedFilter(float *ima, float **result, Filter *f, int sizex, int sizey){return 0;}
 extern "C"  int GradFilterSimple(float *ima, float **result, Filter *f, int sizex, int sizey){return 0;}
+

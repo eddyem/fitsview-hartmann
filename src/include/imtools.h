@@ -16,4 +16,5 @@ void get_circles_params(Window *window, IMAGE *ima);
 void hough_lines(Window *window);
 void get_houg_line(Window *window, double x, double y, double *phi_, double *R_);
 void filter_image(Window *window, Filter *f);
+int fillIsoScale(Filter *f, float **scale, float min, float wd);
 #endif // _IMTOOLS_H_

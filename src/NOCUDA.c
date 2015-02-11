@@ -678,60 +678,6 @@ int MedFilter(float *ima,
 	DBG("time=%f\n", dtime()-t0);
 	return TRUE;
 }
-/*
- * Fill isolines' scale (an array)
- * Input:
- * 		f - filter for given method
- * 		min - minimum value of intensity
- * 		wd - max-min (dinamic range)
- * Output:
- * 		scale - a pointer to array (allocated in this function)
- */
-int fillIsoScale(Filter *f, float **scale, float min, float wd){
-	int M = f->w, y;
-	float (*scalefn)(float in);
-	float step, Nsteps = (float)f->w; // amount of intervals
-	float Suniform(float in){
-		return step*in + min;
-	}
-	float Slog(float in){
-		return expf(in*step) + min - 1.;
-	}
-	float Sexp(float in){
-		return wd*logf(in*step) + min;
-	}
-	float Ssqrt(float in){
-		return in*in*step*step + min;
-	}
-	float Spow(float in){
-		return sqrtf(in*step) + min;
-	}
-	if(!scale) return FALSE;
-
-	*scale = calloc(M, sizeof(float));
-	if(!*scale) return FALSE;
-	switch(f->h){
-		case LOG:
-			scalefn = Slog; step = logf(wd+1.)/Nsteps;
-		break;
-		case EXP:
-			scalefn = Sexp; step = expf(1.)/Nsteps;
-		break;
-		case SQRT:
-			scalefn = Ssqrt; step = sqrtf(wd)/Nsteps;
-		break;
-		case POW:
-			scalefn = Spow; step = wd*wd/Nsteps;
-		break;
-		default:
-			scalefn = Suniform; step = wd/Nsteps;
-	}
-	for(y = 0; y < M; y++){
-		(*scale)[y] = scalefn(y+1);
-		DBG("level %d: I=%g", y, (*scale)[y]);
-	}
-	return TRUE;
-}
 
 /*
  * Threshold filtering ("posterization")
