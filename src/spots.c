@@ -319,6 +319,7 @@ void sort_spots(Window *window){
 				green("marker #%d: r=%g, phi=%g, tmp_id=%d, x=%g, y=%g", i,
 					spot[i]->r, spot[i]->phi, spot[i]->id, spot[i]->c.x, spot[i]->c.y);
 			double dphi = spot[0]->phi - spot[1]->phi;
+			if(dphi < 0.) dphi += 2.*M_PI;
 			DBG("Angle between markers: %g degr\n", dphi*180./M_PI);
 			if(fabs(dphi - DPHI_MARKERS) > PHI_STEP){
 				bad_circumstances(BAD_MARKERS_ANGLE);
