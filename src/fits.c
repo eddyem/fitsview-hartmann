@@ -168,10 +168,12 @@ gboolean writefits(char *filename, IMAGE *image){
 		}
 		gtk_tree_path_free(path);
 	}
+#ifdef EBUG
 	GLfloat min, wd;
 	min = image->stat.min;
 	wd = image->stat.max - min;
 	DBG("min = %f, wd = %f", min, wd);
+#endif
 /*	int i,j;
 	GLfloat *newdata = malloc(sz*sizeof(GLfloat));
 	GLfloat *ptro = newdata, *ptri = image->data;
@@ -355,7 +357,7 @@ gboolean readfits(gchar *filename, IMAGE *image){
 
 	TRYFITS(fits_read_img, fp, TFLOAT, 1, sz, &nullval, image->data, &stat);
 	GLfloat *ptr = image->data;
-	GLfloat min, max, wd;
+	GLfloat min, max;
 	min = 1e6; max = 0.;
 	for(i=0; i<h; i++)
 		for(j=0; j<w; j++, ptr++){
@@ -363,8 +365,7 @@ gboolean readfits(gchar *filename, IMAGE *image){
 			if(tmp > max) max = tmp;
 			else if(tmp < min) min = tmp;
 		}
-	wd = max - min;
-	DBG("min = %f, wd = %f", min, wd);
+	DBG("min = %f, wd = %f", min, max-min);
 	image->stat.max = max;
 	image->stat.min = min;
 	// histogram isn't initialized yet

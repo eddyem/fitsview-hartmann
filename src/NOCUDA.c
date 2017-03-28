@@ -20,6 +20,7 @@
 #include "fitsview.h"
 #include "gtk.h"
 #include "CUtools.h"
+#include "imtools.h"
 #include <pthread.h>
 #include <fftw3.h>
 

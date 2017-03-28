@@ -162,7 +162,7 @@ gboolean get_circle_center(Window *window, BOX *box, PIX *pix, Coordinates *crds
 	int N = 0, X0, Y0, X, Y, n;
 	l_uint32 *pixdata, *pixptr;
 	l_int32 w, h, d, wpl, sz, i, x, y;
-	double Xcenter, Ycenter, Radius, xx, yy, Intens, X2, Y2;
+	double Xcenter, Ycenter, xx, yy, Intens, X2, Y2;
 	GLfloat *data;
 	if(!check_box(window, box, &X0, &Y0, &X, &Y)) return FALSE;
 	if(!(pix && crds)) return FALSE;
@@ -177,8 +177,7 @@ gboolean get_circle_center(Window *window, BOX *box, PIX *pix, Coordinates *crds
 	n = 0;
 	Xcenter = (double)(X0 + X) / 2.;
 	Ycenter = (double)(Y0 + Y) / 2.;
-	Radius = (double)(w + h) / 4.;
-	DBG("x0=%g, y0=%g, r0=%g, N=%d", Xcenter, Ycenter, Radius, N);
+	DBG("x0=%g, y0=%g, r0=%g, N=%d", Xcenter, Ycenter, (double)(w + h) / 4., N);
 	Xcenter = Ycenter = X2 = Y2 = Intens = 0.;
 	AxisX = 0.; AxisY = (double)HT;
 	for(y = 0; y < h; y++){
