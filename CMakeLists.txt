@@ -3,12 +3,18 @@ set(PROJ fitsview)
 project(${PROJ})
 set(CMAKE_COLOR_MAKEFILE ON)
 set(DEBUG 1) # закомментировать эту строку по окончании "разработки"
-if(NOT DEFINED NO_CUDA)
+
+if(DEFINED USE_CUDA)
+message("DEFINED")
+endif()
+if(DEFINED USE_CUDA AND USE_CUDA STREQUAL "yes")
 	message("Try to use CUDA")
 	find_package(CUDA)
 	if(CUDA_FOUND)
 		add_definitions(-DCUDA_FOUND)
 	endif()
+else()
+	message("No CUDA: ${USE_CUDA}")
 endif()
 if(NOT DEFINED PROCESSOR_COUNT)
   set(PROCESSOR_COUNT 2) # by default 2 cores
@@ -20,5 +26,6 @@ if(NOT DEFINED PROCESSOR_COUNT)
 endif()
 add_definitions(-DTHREAD_NUMBER=${PROCESSOR_COUNT})
 message("In multithreaded operations will use ${PROCESSOR_COUNT} threads")
+
 subdirs(src)
 

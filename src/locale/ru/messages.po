@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-19 12:03+0300\n"
+"POT-Creation-Date: 2018-10-29 19:22+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,602 +17,606 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:58
+#: /home/eddy/C-files/fitsview/src/NOCUDA.c:756
+msgid "No memory left"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/contours.c:395
+#: /home/eddy/C-files/fitsview/src/contours.c:401
+#: /home/eddy/C-files/fitsview/src/contours.c:450
+#: /home/eddy/C-files/fitsview/src/contours.c:454
+#: /home/eddy/C-files/fitsview/src/contours.c:457
+#: /home/eddy/C-files/fitsview/src/terrain.c:264
+#: /home/eddy/C-files/fitsview/src/terrain.c:270
+#: /home/eddy/C-files/fitsview/src/tracking.c:543
+msgid "Can't allocate memory"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fits.c:193
+#: /home/eddy/C-files/fitsview/src/gtk.c:174
+msgid "Can't read fits file"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fits.c:286
+msgid "Can't read HDU"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fits.c:347
+msgid "Not an image? (dimensions != 2)"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:53
+msgid "Type"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:53
+msgid "Name"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:53
+msgid "Value"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:53
+msgid "Comment"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:101
+msgid "Error in value range!"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:120
+msgid "Invalid double number!"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:132
+msgid "Format error: complex number must be in format"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:486
+msgid "Open fits file first"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:513
+msgid "New entry (ctrl+n)"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:518
+msgid "Delete entry (ctrl+d)"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/fitsheaders.c:524
+msgid "Close (ctrl+w)"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/gtk.c:58
 #, c-format
 msgid "Error: %s\n"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:174
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fits.c:191
-msgid "Can't read fits file"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:185
+#: /home/eddy/C-files/fitsview/src/gtk.c:185
 msgid "Can't save file"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:367
+#: /home/eddy/C-files/fitsview/src/gtk.c:367
 msgid "Selected line"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:473
+#: /home/eddy/C-files/fitsview/src/gtk.c:473
 msgid "Both max values are less than min"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:476
+#: /home/eddy/C-files/fitsview/src/gtk.c:476
 msgid "Max height value less than min"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:478
+#: /home/eddy/C-files/fitsview/src/gtk.c:478
 msgid "Max width value less than min"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:525
+#: /home/eddy/C-files/fitsview/src/gtk.c:525
 msgid "No recognized spots"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:1090
+#: /home/eddy/C-files/fitsview/src/gtk.c:1090
 msgid "Quit"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/gtk.c:1093
+#: /home/eddy/C-files/fitsview/src/gtk.c:1093
 msgid "Close"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:53
-msgid "Type"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:53
-msgid "Name"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:53
-msgid "Value"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:53
-msgid "Comment"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:101
-msgid "Error in value range!"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:120
-msgid "Invalid double number!"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:132
-msgid "Format error: complex number must be in format"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:486
-msgid "Open fits file first"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:513
-msgid "New entry (ctrl+n)"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:518
-msgid "Delete entry (ctrl+d)"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsheaders.c:524
-msgid "Close (ctrl+w)"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:57
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:62
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:350
-msgid "Can't allocate memory for track points"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:483
-#, c-format
-msgid "Selected region from %.1f to %.1f, %d datapoints"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:518
-msgid "No parent window or image"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:526
-msgid "No data points"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:531
-msgid "Bad amount of data points"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:536
-msgid "Invalid number of first point"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:543
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/contours.c:395
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/contours.c:401
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/contours.c:450
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/contours.c:454
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/contours.c:457
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/terrain.c:264
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/terrain.c:270
-msgid "Can't allocate memory"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/tracking.c:559
-#, c-format
-msgid "Fit gaussian, x0=%.2f I(%.2f, %.2f), s=%.2f, A=%.1f, C=%.3f"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:63
-msgid "Too many markers"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:64
-msgid "Not enough markers"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:65
-msgid "Bad markers angle"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:66
-msgid "Too many rings"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:83
-msgid "Can't allocate memory for new spots"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:88
-msgid "Can't allocate memory for pointers in spots array"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:122
-msgid "Spots array is full, can't place new spot\n"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:126
-msgid "Zero pointer to spot\n"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:132
-msgid "Can't allocate memory for new spot"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:137
-msgid "Can't copy spot to new one"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:500
-msgid "Can't open file"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/spots.c:512
-msgid "Can't write to file"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:222
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:302
+#: /home/eddy/C-files/fitsview/src/imtools.c:221
+#: /home/eddy/C-files/fitsview/src/imtools.c:301
 msgid "Define treshold limits first"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:235
+#: /home/eddy/C-files/fitsview/src/imtools.c:234
 msgid "No GSL library found, don't calculate centroids"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:239
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:318
+#: /home/eddy/C-files/fitsview/src/imtools.c:238
+#: /home/eddy/C-files/fitsview/src/imtools.c:317
 msgid "Box not found"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:274
+#: /home/eddy/C-files/fitsview/src/imtools.c:273
 msgid "Find spots first"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:279
+#: /home/eddy/C-files/fitsview/src/imtools.c:278
 msgid "Too many points"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:283
+#: /home/eddy/C-files/fitsview/src/imtools.c:282
 msgid "Not enough points"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:322
+#: /home/eddy/C-files/fitsview/src/imtools.c:321
 msgid "Pix not found"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:377
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:439
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:481
+#: /home/eddy/C-files/fitsview/src/imtools.c:376
+#: /home/eddy/C-files/fitsview/src/imtools.c:438
+#: /home/eddy/C-files/fitsview/src/imtools.c:480
 msgid "Image is empty"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:384
+#: /home/eddy/C-files/fitsview/src/imtools.c:383
 msgid "Can't allocate memory for histogram"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:492
+#: /home/eddy/C-files/fitsview/src/imtools.c:491
 msgid "Can't allocate memory for Hough transform"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:508
+#: /home/eddy/C-files/fitsview/src/imtools.c:507
 msgid "Error in Hough transform module"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/imtools.c:628
+#: /home/eddy/C-files/fitsview/src/imtools.c:627
 msgid "Error in image filter module"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fits.c:284
-msgid "Can't read HDU"
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:79
+msgid "linear"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fits.c:345
-msgid "Not an image? (dimensions != 2)"
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:79
+msgid "log"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:34
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:79
+msgid "square root"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:96
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:354
+msgid "Preview size"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:105
+msgid "Colormap function"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:142
+msgid "Select fits file to open"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:155
+msgid "FITS files"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:164
+msgid "All files"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:188
+msgid "Preview settings"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:353
+msgid "Image size"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/open_dialog.c:355
+msgid "Preview scale"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/opengl.c:34
 msgid "OpenGL not supported"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:55
+#: /home/eddy/C-files/fitsview/src/opengl.c:55
 msgid ""
 "\n"
 "OpenGL info:\n"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:60
+#: /home/eddy/C-files/fitsview/src/opengl.c:60
 msgid "Color bits"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:65
+#: /home/eddy/C-files/fitsview/src/opengl.c:65
 msgid "Depth bits"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:66
+#: /home/eddy/C-files/fitsview/src/opengl.c:66
 msgid "Stencil bits"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:66
+#: /home/eddy/C-files/fitsview/src/opengl.c:66
 msgid "Max amount of lights"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:69
+#: /home/eddy/C-files/fitsview/src/opengl.c:69
 msgid "Max texture size"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:70
+#: /home/eddy/C-files/fitsview/src/opengl.c:70
 msgid "Max clip planes"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:75
+#: /home/eddy/C-files/fitsview/src/opengl.c:75
 msgid "Max stack depths"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:76
+#: /home/eddy/C-files/fitsview/src/opengl.c:76
 msgid "modelview"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:76
+#: /home/eddy/C-files/fitsview/src/opengl.c:76
 msgid "projection"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:76
+#: /home/eddy/C-files/fitsview/src/opengl.c:76
 msgid "attrib"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:77
+#: /home/eddy/C-files/fitsview/src/opengl.c:77
 msgid "texture"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:80
+#: /home/eddy/C-files/fitsview/src/opengl.c:80
 msgid "VBO is supported\n"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:288
+#: /home/eddy/C-files/fitsview/src/opengl.c:288
 msgid "Empty region"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:295
+#: /home/eddy/C-files/fitsview/src/opengl.c:295
 msgid "Selected spot[s]:\n"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:297
+#: /home/eddy/C-files/fitsview/src/opengl.c:297
 msgid "Selected spot: "
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:299
+#: /home/eddy/C-files/fitsview/src/opengl.c:299
 msgid "Selected spots: "
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/opengl.c:483
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/terrain.c:321
+#: /home/eddy/C-files/fitsview/src/opengl.c:483
+#: /home/eddy/C-files/fitsview/src/terrain.c:321
 msgid "Can't allocate memory for texture"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/terrain.c:227
+#: /home/eddy/C-files/fitsview/src/spots.c:63
+msgid "Too many markers"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:64
+msgid "Not enough markers"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:65
+msgid "Bad markers angle"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:66
+msgid "Too many rings"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:83
+msgid "Can't allocate memory for new spots"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:88
+msgid "Can't allocate memory for pointers in spots array"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:122
+msgid "Spots array is full, can't place new spot\n"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:126
+msgid "Zero pointer to spot\n"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:132
+msgid "Can't allocate memory for new spot"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:137
+msgid "Can't copy spot to new one"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:500
+msgid "Can't open file"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/spots.c:512
+msgid "Can't write to file"
+msgstr ""
+
+#: /home/eddy/C-files/fitsview/src/terrain.c:227
 msgid "Selected area too small"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/terrain.c:233
+#: /home/eddy/C-files/fitsview/src/terrain.c:233
 msgid "Error occured when tried to add contours"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/terrain.c:256
+#: /home/eddy/C-files/fitsview/src/terrain.c:256
 msgid "No image in parent window"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/terrain.c:332
+#: /home/eddy/C-files/fitsview/src/terrain.c:332
 msgid "Can't generate VBO / GL list"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:79
-msgid "linear"
+#: /home/eddy/C-files/fitsview/src/tracking.c:57
+#: /home/eddy/C-files/fitsview/src/tracking.c:62
+#: /home/eddy/C-files/fitsview/src/tracking.c:350
+msgid "Can't allocate memory for track points"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:79
-msgid "log"
+#: /home/eddy/C-files/fitsview/src/tracking.c:483
+#, c-format
+msgid "Selected region from %.1f to %.1f, %d datapoints"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:79
-msgid "square root"
+#: /home/eddy/C-files/fitsview/src/tracking.c:518
+msgid "No parent window or image"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:96
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:354
-msgid "Preview size"
+#: /home/eddy/C-files/fitsview/src/tracking.c:526
+msgid "No data points"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:105
-msgid "Colormap function"
+#: /home/eddy/C-files/fitsview/src/tracking.c:531
+msgid "Bad amount of data points"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:142
-msgid "Select fits file to open"
+#: /home/eddy/C-files/fitsview/src/tracking.c:536
+msgid "Invalid number of first point"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:155
-msgid "FITS files"
+#: /home/eddy/C-files/fitsview/src/tracking.c:559
+#, c-format
+msgid "Fit gaussian, x0=%.2f I(%.2f, %.2f), s=%.2f, A=%.1f, C=%.3f"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:164
-msgid "All files"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:188
-msgid "Preview settings"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:353
-msgid "Image size"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/open_dialog.c:355
-msgid "Preview scale"
-msgstr ""
-
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:16
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:448
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:679
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:16
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:448
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:679
 msgid "_File"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:40
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:40
 msgid "Open in _new window"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:55
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:55
 msgid "Open in _3D window"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:92
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:474
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:713
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:92
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:474
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:713
 msgid "_Edit"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:99
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:481
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:720
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:99
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:481
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:720
 msgid "_View"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:107
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:107
 msgid "Show _histogram"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:115
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:115
 msgid "Show _headers"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:128
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:128
 msgid "3D view of full image"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:136
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:136
 msgid "3D view of subframe"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:144
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:144
 msgid "Select _spots"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:152
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:152
 msgid "Draw _tracks"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:165
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:165
 msgid "_Zoom frame"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:173
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:834
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:173
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:834
 msgid "_Restore image"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:181
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:181
 msgid "Zoom _in"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:189
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:189
 msgid "Zoom _out"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:201
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:525
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:846
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:201
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:525
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:846
 msgid "_Math"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:209
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:209
 msgid "Find and enumerate spots"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:210
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:210
 msgid "_Spots"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:218
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:218
 msgid "Choose minimal & maximal spot size"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:219
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:219
 msgid "Size _tresholds"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:227
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:227
 msgid "Identify _spots"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:235
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:235
 msgid "So_rt hartmann spots"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:243
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:243
 msgid "Sa_ve spots"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:255
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:255
 msgid "Identify _circles"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:263
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:263
 msgid "_Hough transform"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:271
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:271
 msgid "_Filter"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:283
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:283
 msgid "_Help"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:489
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:489
 msgid "Y axis scale"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:497
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:497
 msgid "Linear"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:507
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:507
 msgid "Log"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:533
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:533
 msgid "Approximate by _gaussian"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:728
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:728
 msgid "_Move"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:736
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:736
 msgid "Rotate X CW"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:744
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:744
 msgid "Rotate X CCW"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:752
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:752
 msgid "Rotate Z CCW"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:760
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:760
 msgid "Rotate Z CW"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:768
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:768
 msgid "Move right"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:776
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:776
 msgid "Move left"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:784
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:784
 msgid "Move down"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:792
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:792
 msgid "Move up"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:800
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:800
 msgid "Move backward"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:808
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:808
 msgid "Move forward"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:825
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:825
 msgid "Mouse and arrow keys navigation"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:826
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:826
 msgid "_Game mode"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:942
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:942
 msgid "Spots' size treshold"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:986
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1084
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:986
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1084
 msgid "Min"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1018
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1116
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1018
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1116
 msgid "Max"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1050
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1050
 msgid "<b>Width</b>"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1148
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1148
 msgid "<b>Height</b>"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1248
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1248
 msgid "<b>Focus value, mm</b>"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1277
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1277
 msgid "Prefocal"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1290
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1290
 msgid "Postfocal"
 msgstr ""
 
-#: /home/eddy/Docs/SAO/‚Ù·/Á¡“‘Õ¡Œ/my/src/@google_code/src/fitsview.glade:1308
+#: /home/eddy/C-files/fitsview/src/fitsview.glade:1308
 msgid "<b>Image type</b>"
 msgstr ""

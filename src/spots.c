@@ -529,7 +529,7 @@ Spot* spots_add(Spots *spots __attribute__((unused)),
 void spots_free(Spots **spots __attribute__((unused))){
 	LEPTERR;
 }
-void sort_spots(Spots *spots __attribute__((unused))){
+void sort_spots(struct Window *w __attribute__((unused))){
 	LEPTERR;
 }
 #endif // LEPTONICA_FOUND
